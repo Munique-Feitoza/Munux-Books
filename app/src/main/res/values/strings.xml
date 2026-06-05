@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Munux Books</string>
+    <string name="library_empty">Toque em + para adicionar um livro</string>
+    <string name="add_book">Adicionar livro</string>
+    <string name="remove">Remover</string>
+    <string name="back">Voltar</string>
+</resources>

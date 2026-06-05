@@ -1,0 +1,57 @@
+# ===== Segredos / configuração local (NUNCA versionar) =====
+# Contém sdk.dir + chaves de API (DEEPSEEK_API_KEY etc.)
+local.properties
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+keystore.properties
+google-services.json
+.env
+.env.*
+
+# ===== Artefatos de build (gerados; o BuildConfig.java leva a chave embutida) =====
+.gradle/
+build/
+app/build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+release/
+
+# ===== Android Studio / IntelliJ =====
+.idea/
+*.iml
+*.ipr
+*.iws
+.navigation/
+out/
+
+# ===== Livros / conteúdo importado (NÃO versionar) =====
+# Rede de segurança: o app traduz arquivos que o USUÁRIO importa no aparelho.
+# Nenhum livro deve ir para o repositório (evita commitar obra protegida por
+# direito autoral sem querer). Se um dia for embarcar acervo de domínio
+# público, faça isso numa pasta dedicada e libere com exceção explícita.
+*.epub
+*.pdf
+*.mobi
+*.azw3
+*.fb2
+/livros/
+/books/
+/assets/livros/
+
+# ===== Ferramentas / OS =====
+.claude/
+.DS_Store
+Thumbs.db
+*.log
+local.log
+.kotlin/

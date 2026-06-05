@@ -1,0 +1,34 @@
+# Copie este arquivo para `local.properties` e ajuste os valores.
+# `local.properties` está no .gitignore e NUNCA deve ir para o repositório.
+
+# Caminho do Android SDK (ajuste para a sua máquina) — ÚNICO valor obrigatório.
+sdk.dir=/caminho/para/Android/Sdk
+
+# ============================================================================
+# Tradução — 100% OPCIONAL.
+# O app funciona como leitor de EPUB/PDF sem nenhuma chave aqui.
+# A tradução fica desligada até o usuário escolher um provedor e colar a
+# própria chave em Configurações, dentro do app.
+#
+# As linhas abaixo (todas comentadas) servem apenas para semear a
+# configuração inicial em DESENVOLVIMENTO. Em build de produção, deixe
+# comentado para que NENHUM provedor venha pré-selecionado e o usuário
+# escolha o que quiser.
+# ============================================================================
+
+# Idioma de origem/destino padrão da tradução (opcional):
+#   TRANSLATOR_SOURCE_LANG=en
+#   TRANSLATOR_TARGET_LANG=pt-BR
+
+# Provedor explícito (opcional) — escolha UM:
+#   TRANSLATOR_PROVIDER=OPENAI_COMPATIBLE   # GEMINI | OPENAI_COMPATIBLE | ANTHROPIC
+#   TRANSLATOR_API_KEY=...
+#   TRANSLATOR_BASE_URL=https://api.deepseek.com
+#   TRANSLATOR_MODEL=deepseek-chat
+
+# Atalhos por provedor (cada um liga um provedor automaticamente):
+#   GEMINI_API_KEY=AIza...        # Google AI Studio — https://aistudio.google.com/apikey
+#   OPENAI_API_KEY=sk-...         # OpenAI
+#   DEEPSEEK_API_KEY=sk-...       # DeepSeek (OpenAI-compatível)
+#   ANTHROPIC_API_KEY=sk-ant-...  # Anthropic
+#   ... ou qualquer endpoint OpenAI-compatível (Groq, OpenRouter, Mistral, Ollama, vLLM)
